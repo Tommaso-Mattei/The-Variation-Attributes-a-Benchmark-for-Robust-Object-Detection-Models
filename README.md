@@ -11,7 +11,7 @@ The code presented here can be used mainly to collect results and metrics from a
 
 ## Reproducibility information
 
-The dataset itself can be found [here](https://universe.roboflow.com/datasets-jqohk/the-variation-attributes-a-benchmark-for-robust-object-detection-models).
+The dataset itself can be found [here](https://universe.roboflow.com/tommaso-mattei/the-variation-attributes-a-benchmark-for-robust-object-detection-models).
 
 To make use of this repository it is possible to either replicate the experiments and results or to test a different model against the benchmark. Beyond what's written in requirements.txt, it is necessary to download the labeled dataset into the repository. For completeness, the same should be done for the unlabeled one, which is available [here](https://drive.google.com/file/d/1tXFkX2Ic8jWSMvwPSIP2aZ2x7HS8mwgR/view?usp=sharing).
 

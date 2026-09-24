@@ -15,7 +15,7 @@ The dataset itself can be found [here](https://universe.roboflow.com/datasets-jq
 
 To make use of this repository it is possible to either replicate the experiments and results or to test a different model against the benchmark. Beyond what's written in requirements.txt, it is necessary to download the labeled dataset into the repository. For completeness, the same should be done for the unlabeled one, which is available [here](https://drive.google.com/file/d/1tXFkX2Ic8jWSMvwPSIP2aZ2x7HS8mwgR/view?usp=sharing).
 
-Additionally, all of the inference outputs used in the study are stored [here](https://drive.google.com/file/d/1h50tBBfS-XGoe-0OdnnJxti6X_4FPjM0/view?usp=sharing) and can re-analyzed again with ModelResults.py and plot.py if needed.
+Additionally, all of the inference outputs used in the study are stored [here](https://drive.google.com/file/d/1h50tBBfS-XGoe-0OdnnJxti6X_4FPjM0/view?usp=sharing) and can be re-analyzed again with ModelResults.py and plot.py if needed.
 
 The Models predict folder contains the code used to get Faster R-CNN, YOLO11 and RT-DETR, pre-trained on Pascal VOC. It also contains the code for the pre-trained Faster R-CNN with COCO. To get YOLO11l and RT-DETRl it is advised to check Ultralytics very intuitive commands ([YOLO11](https://docs.ultralytics.com/models/yolo11) ; [RT-DETR](https://docs.ultralytics.com/models/rtdetr)).
 

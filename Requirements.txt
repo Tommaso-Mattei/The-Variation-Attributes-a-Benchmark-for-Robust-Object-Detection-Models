@@ -1,0 +1,27 @@
+Requirements:
+
+If the goal is to use the benchmark on your own model output then you need:
+
+PyTorch
+Torchvision
+OpenCV
+Matplotlib
+
+If additionally you want to recreate the conditions of the experiments with Faster R-CNN, YOLO11 and RT-DETR then you also need:
+
+Numpy
+GluonCV
+Ultralytics
+
+My own experiments were made on the following versions:
+
+python==3.14.7
+torch==2.13.0+cu130
+cv2==5.0.0
+torchvision==0.28.0+cu130
+matplotlib==3.11.1
+numpy==2.3.5
+ultralytics==8.4.126
+gluoncv==0.11.0
+
+GluonCV requires a different environment to be deployed in to avoid version conflicts (python==3.7.16). Used only to deploy pre-trained Faster R-CNN on Pascal VOC.

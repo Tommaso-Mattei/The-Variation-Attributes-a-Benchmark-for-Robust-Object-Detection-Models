@@ -19,3 +19,5 @@ Additionally, all of the inference outputs used in the study are stored here (ht
 
 The Models predict folder contains the code used to get Faster R-CNN, YOLO11 and RT-DETR, pre-trained on Pascal VOC. It also contains the code for the pre-trained Faster R-CNN with COCO. To get YOLO11l and RT-DETRl it is advised to check Ultralytics very intutitive commands (https://docs.ultralytics.com/models/yolo11 ; https://docs.ultralytics.com/models/rtdetr).
 
+Inside the results/original_results folder, there are the results of the previously mentione models on the benchmark.
+
